@@ -26,6 +26,18 @@ public class TestCases
       assertEquals(1.0, new Point(1.0, 2.0).getX(), DELTA);
    }
 
+   @Test
+   public void testGetY()
+   {
+      assertEquals(5.3, new Point(3.2, 5.3).getY(), DELTA);
+   }
+
+   @Test
+   public void testGetRadius()
+   {
+      assertEquals(5.0, new Point(3.0, 4.0).getRadius(), DELTA);
+   }
+
    /*
     * The tests below here are to verify the basic requirements regarding
     * the "design" of your class.  These are to remain unchanged.
